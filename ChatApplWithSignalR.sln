@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35208.52
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatApplWithSignalR", "ChatApplWithSignalR\ChatApplWithSignalR\ChatApplWithSignalR.csproj", "{7DA6ABAF-82D3-4A01-BC0E-070E9FBBA14D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatApplWithSignalR", "ChatApplWithSignalR\ChatApplWithSignalR\ChatApplWithSignalR.csproj", "{7DA6ABAF-82D3-4A01-BC0E-070E9FBBA14D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatApplWithSignalR.Client", "ChatApplWithSignalR\ChatApplWithSignalR.Client\ChatApplWithSignalR.Client.csproj", "{6CD2D6D7-5D13-42C3-8A69-57C2FA8863B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatApplWithSignalR.Client", "ChatApplWithSignalR\ChatApplWithSignalR.Client\ChatApplWithSignalR.Client.csproj", "{6CD2D6D7-5D13-42C3-8A69-57C2FA8863B1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
