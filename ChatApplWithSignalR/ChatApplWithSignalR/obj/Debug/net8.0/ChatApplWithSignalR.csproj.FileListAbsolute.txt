@@ -65,3 +65,6 @@ D:\ChatApplication\ChatApplWithSignalR\ChatApplWithSignalR\ChatApplWithSignalR\o
 D:\ChatApplication\ChatApplWithSignalR\ChatApplWithSignalR\ChatApplWithSignalR\obj\Debug\net8.0\ChatApplWithSignalR.pdb
 D:\ChatApplication\ChatApplWithSignalR\ChatApplWithSignalR\ChatApplWithSignalR\obj\Debug\net8.0\ChatApplWithSignalR.genruntimeconfig.cache
 D:\ChatApplication\ChatApplWithSignalR\ChatApplWithSignalR\ChatApplWithSignalR\obj\Debug\net8.0\ref\ChatApplWithSignalR.dll
+D:\ChatApplication\ChatApplWithSignalR\ChatApplWithSignalR\ChatApplWithSignalR\bin\Debug\net8.0\AngleSharp.dll
+D:\ChatApplication\ChatApplWithSignalR\ChatApplWithSignalR\ChatApplWithSignalR\bin\Debug\net8.0\AngleSharp.Css.dll
+D:\ChatApplication\ChatApplWithSignalR\ChatApplWithSignalR\ChatApplWithSignalR\bin\Debug\net8.0\HtmlSanitizer.dll

@@ -1,5 +1,6 @@
 ﻿@page "/chat"
 @using Microsoft.AspNetCore.SignalR.Client
+@using System.Text.Encodings.Web
 @rendermode InteractiveWebAssembly
 @inject NavigationManager NavManager
 
@@ -11,6 +12,7 @@
         <div class="card">
             <div class="card-header">The Help</div>
             <div class="card-body">
+                <p>@errorMessage</p>
                 <ul class="list-group">
                     @foreach (var item in Messages)
                     {
@@ -48,6 +50,7 @@
 
     private string? username;
     private string? message;
+    private string? errorMessage;
 
     private DateTime date = DateTime.Now;
 
@@ -64,11 +67,22 @@
             Messages.Add(concatMessage);
             InvokeAsync(StateHasChanged);
         });
+        
         await hubConnection.StartAsync();
     }
     private async Task Send()
     {
-        await hubConnection.SendAsync("SendMessage", username, message, date);
+        if (string.IsNullOrWhiteSpace(username))
+        {
+            errorMessage = "Please enter a name";
+            return;
+        }
+        else
+        {
+            errorMessage = "";
+        }
+        string sanitizedMessage = HtmlEncoder.Default.Encode(message);
+        await hubConnection.SendAsync("SendMessage", username, sanitizedMessage, date);
     }
 
     public bool IsConnected =>
