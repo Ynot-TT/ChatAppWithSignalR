@@ -1,0 +1,32 @@
+﻿body {
+}
+.btn-send{
+    background-color: dodgerblue;
+    border-radius: 2px;
+    height: 40px; 
+    width: 80px;
+}
+.no-username{
+    color:red;
+}
+.message-bubble {
+    background-color: dodgerblue;
+    color:white;
+    border-radius: 20px;
+    padding: 10px 15px;
+    max-width: 70%;
+    margin-bottom: 10px;
+    display: inline-block;
+    word-wrap: break-word;
+    position: relative;
+}
+
+.message-bubble:before {
+    position: absolute;
+    border-width: 10px;
+    
+}
+
+.list-group {
+    list-style-type: none;
+}

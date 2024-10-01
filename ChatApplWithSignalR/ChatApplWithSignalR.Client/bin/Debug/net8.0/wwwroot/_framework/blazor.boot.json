@@ -1,12 +1,12 @@
 {
   "mainAssemblyName": "ChatApplWithSignalR.Client",
   "resources": {
-    "hash": "sha256-grhBF769vwCTxeqoNMtVjgHSrJ3aoPw7f3G6GKk4KQY=",
+    "hash": "sha256-BdseWirgGXDIlDG6X7t67Th37jfh9+DKWlEuY/cXlDM=",
     "jsModuleNative": {
-      "dotnet.native.8.0.8.6kpjexj248.js": "sha256-juC5sA7gHTLXFEhAKgdM2/RavswpwCtDfjYGsAz2FXg="
+      "dotnet.native.8.0.8.anxf3ykx5p.js": "sha256-juC5sA7gHTLXFEhAKgdM2/RavswpwCtDfjYGsAz2FXg="
     },
     "jsModuleRuntime": {
-      "dotnet.runtime.8.0.8.l2t91hvri7.js": "sha256-0Dpj/NkVD5WqSC16ZvJLmlc38iv9+Je+umYBVOycPVU="
+      "dotnet.runtime.8.0.8.a9avanecp0.js": "sha256-0Dpj/NkVD5WqSC16ZvJLmlc38iv9+Je+umYBVOycPVU="
     },
     "wasmNative": {
       "dotnet.native.wasm": "sha256-OcUTcd7qQceenWEF93409WZcaXp2qQbEyhdchog4RUE="
@@ -17,6 +17,9 @@
       "icudt_no_CJK.dat": "sha256-L7sV7NEYP37/Qr2FPCePo5cJqRgTXRwGHuwF5Q+0Nfs="
     },
     "assembly": {
+      "AngleSharp.wasm": "sha256-soBqVeDOe3AZki4mQ1fPzAk735KqEsg7WrIFlX30woI=",
+      "AngleSharp.Css.wasm": "sha256-4Diue02BcmgMCs2GbdIncDbObwTBOLgvd6XPH0wuoiE=",
+      "HtmlSanitizer.wasm": "sha256-j/VDUn+KBeFMDlh9TnxokGsztpqG8yf+E/Sqn0cylhU=",
       "Microsoft.AspNetCore.Authorization.wasm": "sha256-H1yH7iBNYt/rilvQT6qsv2frcFFOBUKBnRrGQ1AIHnI=",
       "Microsoft.AspNetCore.Components.wasm": "sha256-kPAmhH4D4UN/DyWkGyB1Sxs7tQyVDV150swtUfTSJJ8=",
       "Microsoft.AspNetCore.Components.Forms.wasm": "sha256-ZB9Iu49s5SYUpy+xnFe+KIg2LeHGglqjWkohvxQ8m30=",
@@ -216,10 +219,10 @@
       "mscorlib.wasm": "sha256-Gz8PyW2/fwihe5ul81OwmRUrU71r+KtbyRw6xlOGD+Q=",
       "netstandard.wasm": "sha256-jMTqIQzoDS810lyhZpMO5eEC36EzntXqSVn+2qwkOMQ=",
       "System.Private.CoreLib.wasm": "sha256-NFj5WE5VLP2LptZIRJCUIc1AMk06FmxpsSILfPISwAw=",
-      "ChatApplWithSignalR.Client.wasm": "sha256-9zQRhBLmITY1ZQPpDwpYkA54RT1kfGbShgRGkcjZSYU="
+      "ChatApplWithSignalR.Client.wasm": "sha256-4DfNbpbvyJkQk6MTTTU/M5zVgYnHUFrKSM3LSjTySOw="
     },
     "pdb": {
-      "ChatApplWithSignalR.Client.pdb": "sha256-xNFM4z8rVlFBRXY9pKB6P+G7PjDLRZaiWRo6wMwZSvs="
+      "ChatApplWithSignalR.Client.pdb": "sha256-o1UM83GefDTasEzhPvVwfOqlUmm8NkSUKyQsmpsW8Ak="
     }
   },
   "cacheBootResources": true,

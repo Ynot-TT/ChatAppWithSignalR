@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.SignalR;
+﻿using Ganss.Xss;
+using Microsoft.AspNetCore.SignalR;
 
 namespace ChatApplWithSignalR.Hubs
 {
@@ -7,6 +8,7 @@ namespace ChatApplWithSignalR.Hubs
 
         public async Task SendMessage(string username, string message, DateTime date)
         {
+            var sanitizeMessage = new HtmlSanitizer();
             await Clients.All.SendAsync("ReceiveMessage", username, message, date);
         }
     }

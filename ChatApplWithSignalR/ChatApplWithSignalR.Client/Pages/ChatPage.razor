@@ -1,4 +1,4 @@
-﻿@page "/chat"
+﻿@page "/"
 @using Microsoft.AspNetCore.SignalR.Client
 @using System.Text.Encodings.Web
 @rendermode InteractiveWebAssembly
@@ -8,28 +8,32 @@
 
 
 <div class="row">
-    <div class="col-lg-7 ">
-        <div class="card">
-            <div class="card-header">The Help</div>
+    <div class="container ">
+        <div class="con">
+            <div class="card-header">Chatti</div>
             <div class="card-body">
-                <p>@errorMessage</p>
-                <ul class="list-group">
-                    @foreach (var item in Messages)
-                    {
-                        <li class="mb-2">@item</li>
-                    }
-
-                </ul>
+                <p class="no-username">@errorMessage</p>
+                <div class="message-card">
+                    <ul class="list-group">
+                        @foreach (var item in Messages)
+                        {
+                            <li class="mb-2 message-bubble">@item</li>
+                        }
+                    </ul>
+                </div>
                 <div class="border-primary">
-                    <div class="hstack gap-2 mb-4">
-                        <input type="text" class="form-control w-25" @bind="username" />
-                        <textarea class="form-control" @bind="message" />
+                    <div class="username-container">
+                        <input type="text" class="username-input" @bind="username" />
                     </div>
-                    <button class="btn btn-success" @onclick="Send">Send Message</button>
+                    <div class="message-container">
+                        <textarea class="message-input-box" @bind="message" />
+
+                    </div>
+                    <button class="btn-send" @onclick="Send">Send</button>
 
                 </div>
             </div>
-            <div class="card-footer">
+            @* <div class="card-footer">
                 @if (!IsConnected)
                 {
                     <div class="alert alert-danger"> Chat Diconnected</div>
@@ -38,7 +42,7 @@
                 {
                     <div class="alert alert-success"> Chat Connected</div>
                 }
-            </div>
+            </div> *@
         </div>
     </div>
 </div>
@@ -56,17 +60,22 @@
 
     protected async override Task OnInitializedAsync()
     {
+        
         hubConnection = new HubConnectionBuilder()
         .WithUrl(NavManager.ToAbsoluteUri("/chathub"))
         .Build();
 
         hubConnection.On<string, string, DateTime>("ReceiveMessage", (username, message, date) =>
         {
+            string sanitizedUsername = HtmlEncoder.Default.Encode(username);
+            string sanitizedMessage = HtmlEncoder.Default.Encode(message);
+           
             var timeOnly = date.ToString("HH:mm");  
-            var concatMessage = $"{timeOnly}:{username}:{message}";
+            var concatMessage = $"{timeOnly} {sanitizedUsername}:{sanitizedMessage}";
             Messages.Add(concatMessage);
             InvokeAsync(StateHasChanged);
-        });
+        });                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+
         
         await hubConnection.StartAsync();
     }
@@ -81,8 +90,7 @@
         {
             errorMessage = "";
         }
-        string sanitizedMessage = HtmlEncoder.Default.Encode(message);
-        await hubConnection.SendAsync("SendMessage", username, sanitizedMessage, date);
+        await hubConnection.SendAsync("SendMessage", username, message, date);
     }
 
     public bool IsConnected =>

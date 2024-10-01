@@ -1,19 +1,23 @@
 {
   "Files": [
     {
-      "Id": "D:\\ChatApplication\\ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "Id": "C:\\Users\\tonyn\\source\\repos\\ChatAppWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
-      "Id": "D:\\ChatApplication\\ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR.Client\\obj\\Debug\\net8.0\\compressed\\am008uxys4.gz",
+      "Id": "C:\\Users\\tonyn\\source\\repos\\ChatAppWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR.Client\\obj\\Debug\\net8.0\\compressed\\bqipip0olv.gz",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
     },
     {
-      "Id": "D:\\ChatApplication\\ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR.Client\\wwwroot\\appsettings.Development.json",
+      "Id": "C:\\Users\\tonyn\\source\\repos\\ChatAppWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR.Client\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ChatApplWithSignalR.Client.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ChatApplWithSignalR.Client.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\tonyn\\source\\repos\\ChatAppWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR.Client\\wwwroot\\appsettings.Development.json",
       "PackagePath": "staticwebassets\\appsettings.Development.json"
     },
     {
-      "Id": "D:\\ChatApplication\\ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR.Client\\wwwroot\\appsettings.json",
+      "Id": "C:\\Users\\tonyn\\source\\repos\\ChatAppWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR.Client\\wwwroot\\appsettings.json",
       "PackagePath": "staticwebassets\\appsettings.json"
     },
     {

@@ -364,6 +364,7 @@
       "System.Threading.Channels/8.0.0": {},
       "ChatApplWithSignalR.Client/1.0.0": {
         "dependencies": {
+          "HtmlSanitizer": "8.1.870",
           "Microsoft.AspNetCore.Components.WebAssembly": "8.0.8",
           "Microsoft.AspNetCore.SignalR.Client": "8.0.8"
         },
