@@ -1,17 +1,22 @@
-body[b-fu2xibmymp] {
+.body[b-fu2xibmymp] {
+    height: 100vh;
+    width: 100vw;
+    background: url(../images/sky.jpg);
+    background-size: cover;
+
 }
-.btn-send[b-fu2xibmymp]{
-    background-color: dodgerblue;
-    border-radius: 2px;
-    height: 40px; 
-    width: 80px;
+.username-input[b-fu2xibmymp] {
+    border: 1px solid #ccc;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
 }
-.no-username[b-fu2xibmymp]{
-    color:red;
+.username-input.error[b-fu2xibmymp] {
+    border: 3px solid red; 
 }
 .message-bubble[b-fu2xibmymp] {
     background-color: dodgerblue;
-    color:white;
+    color: white;
     border-radius: 20px;
     padding: 10px 15px;
     max-width: 70%;
@@ -20,13 +25,76 @@ body[b-fu2xibmymp] {
     word-wrap: break-word;
     position: relative;
 }
-
 .message-bubble[b-fu2xibmymp]:before {
     position: absolute;
     border-width: 10px;
-    
 }
-
 .list-group[b-fu2xibmymp] {
     list-style-type: none;
 }
+.container[b-fu2xibmymp] {
+    margin-top: 50px;
+    height: 600px;
+    width: 600px;
+    border-radius: 15px;
+    background: rgba(105, 105, 105,0.2);
+    opacity: 1;
+    box-shadow: 5px 5px 15px rgba(0,0,0,.8);
+}
+.username-container[b-fu2xibmymp] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.error-message-username[b-fu2xibmymp] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    
+}
+.message-send-container[b-fu2xibmymp] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.message-input[b-fu2xibmymp] {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.message-input[b-fu2xibmymp] {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.message-input-box[b-fu2xibmymp] {
+    height: 40px;
+    width: 450px;
+    border-radius: 20px;
+    padding-right: 90px;
+    background: rgba(105, 105, 105,0.2);
+    opacity: 1;
+    box-shadow: 5px 5px 15px rgba(0,0,0,.8);
+    color: white;
+}
+.message-input-box[b-fu2xibmymp]::placeholder{
+    color: white;
+}
+.btn-send[b-fu2xibmymp] {
+
+    background-color: dodgerblue;
+    border-radius: 20px;
+    height: 40px;
+    width: 80px;
+    position: absolute; 
+    right: 0; 
+    top: 0; 
+    border: none; 
+    color: white; 
+    cursor: pointer; 
+}
+.btn-send:hover[b-fu2xibmymp] {
+    background-color: darkblue; 
+}
+

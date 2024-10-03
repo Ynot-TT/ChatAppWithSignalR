@@ -1,23 +1,27 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\tonyn\\source\\repos\\ChatAppWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ChatApplWithSignalR.bundle.scp.css",
+      "Id": "D:\\ChatApplication\\ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ChatApplWithSignalR.bundle.scp.css",
       "PackagePath": "staticwebassets\\ChatApplWithSignalR.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\tonyn\\source\\repos\\ChatAppWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR\\wwwroot\\app.css",
+      "Id": "D:\\ChatApplication\\ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR\\wwwroot\\Images\\sky.jpg",
+      "PackagePath": "staticwebassets\\Images\\sky.jpg"
+    },
+    {
+      "Id": "D:\\ChatApplication\\ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR\\wwwroot\\app.css",
       "PackagePath": "staticwebassets\\app.css"
     },
     {
-      "Id": "C:\\Users\\tonyn\\source\\repos\\ChatAppWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Id": "D:\\ChatApplication\\ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR\\wwwroot\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\tonyn\\source\\repos\\ChatAppWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Id": "D:\\ChatApplication\\ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\tonyn\\source\\repos\\ChatAppWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR\\wwwroot\\favicon.png",
+      "Id": "D:\\ChatApplication\\ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {

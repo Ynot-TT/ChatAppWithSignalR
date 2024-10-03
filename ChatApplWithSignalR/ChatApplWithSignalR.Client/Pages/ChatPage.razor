@@ -7,33 +7,35 @@
 <PageTitle>The Help</PageTitle>
 
 
-<div class="row">
-    <div class="container ">
-        <div class="con">
-            <div class="card-header">Chatti</div>
+<div class="body">
+        <div class="username-container">
+            <input type="text"
+                   placeholder="Enter username"
+                   class="username-input @(string.IsNullOrWhiteSpace(isUsernameStated) ? "" : "error")"
+                   @bind="username" />
+        </div>
+        
+        <div class="container">
+            @* <div class="card-header">Chatti</div> *@
+            
             <div class="card-body">
-                <p class="no-username">@errorMessage</p>
+              
                 <div class="message-card">
                     <ul class="list-group">
                         @foreach (var item in Messages)
                         {
-                            <li class="mb-2 message-bubble">@item</li>
+                            <li class="message-bubble">@item</li>
                         }
                     </ul>
                 </div>
                 <div class="border-primary">
-                    <div class="username-container">
-                        <input type="text" class="username-input" @bind="username" />
-                    </div>
-                    <div class="message-container">
-                        <textarea class="message-input-box" @bind="message" />
-
-                    </div>
-                    <button class="btn-send" @onclick="Send">Send</button>
-
+                   
+                    
+                   
+                    
                 </div>
             </div>
-            @* <div class="card-footer">
+            @*  <div class="card-footer">
                 @if (!IsConnected)
                 {
                     <div class="alert alert-danger"> Chat Diconnected</div>
@@ -42,11 +44,16 @@
                 {
                     <div class="alert alert-success"> Chat Connected</div>
                 }
-            </div> *@
+            </div>  *@
         </div>
-    </div>
+        <div class="message-send-container">
+            <div class="message-input">
+                <input type="text" placeholder="Enter a message" class="message-input-box" @bind="message" />
+                <button class="btn-send" @onclick="Send" disabled="@(string.IsNullOrWhiteSpace(message))">Send</button>
+            </div>
+           
+        </div>
 </div>
-
 
 @code {
     private HubConnection? hubConnection;
@@ -54,13 +61,13 @@
 
     private string? username;
     private string? message;
-    private string? errorMessage;
+    private string? isUsernameStated;
 
     private DateTime date = DateTime.Now;
 
     protected async override Task OnInitializedAsync()
     {
-        
+
         hubConnection = new HubConnectionBuilder()
         .WithUrl(NavManager.ToAbsoluteUri("/chathub"))
         .Build();
@@ -69,26 +76,26 @@
         {
             string sanitizedUsername = HtmlEncoder.Default.Encode(username);
             string sanitizedMessage = HtmlEncoder.Default.Encode(message);
-           
+
             var timeOnly = date.ToString("HH:mm");  
             var concatMessage = $"{timeOnly} {sanitizedUsername}:{sanitizedMessage}";
             Messages.Add(concatMessage);
             InvokeAsync(StateHasChanged);
         });                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
 
-        
+
         await hubConnection.StartAsync();
     }
     private async Task Send()
     {
         if (string.IsNullOrWhiteSpace(username))
         {
-            errorMessage = "Please enter a name";
+            isUsernameStated = "Please enter a name";
             return;
         }
         else
         {
-            errorMessage = "";
+            isUsernameStated = "";
         }
         await hubConnection.SendAsync("SendMessage", username, message, date);
     }
@@ -103,6 +110,4 @@
             await hubConnection.DisposeAsync();
         }
     }
-   
-
 }

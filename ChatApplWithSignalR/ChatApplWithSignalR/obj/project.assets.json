@@ -1971,24 +1971,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\tonyn\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Tony\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tonyn\\source\\repos\\ChatAppWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR.csproj",
+      "projectUniqueName": "D:\\ChatApplication\\ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR.csproj",
       "projectName": "ChatApplWithSignalR",
-      "projectPath": "C:\\Users\\tonyn\\source\\repos\\ChatAppWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR.csproj",
-      "packagesPath": "C:\\Users\\tonyn\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tonyn\\source\\repos\\ChatAppWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR\\obj\\",
+      "projectPath": "D:\\ChatApplication\\ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR.csproj",
+      "packagesPath": "C:\\Users\\Tony\\.nuget\\packages\\",
+      "outputPath": "D:\\ChatApplication\\ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\tonyn\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Tony\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2003,8 +1998,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\tonyn\\source\\repos\\ChatAppWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR.Client\\ChatApplWithSignalR.Client.csproj": {
-              "projectPath": "C:\\Users\\tonyn\\source\\repos\\ChatAppWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR.Client\\ChatApplWithSignalR.Client.csproj"
+            "D:\\ChatApplication\\ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR.Client\\ChatApplWithSignalR.Client.csproj": {
+              "projectPath": "D:\\ChatApplication\\ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR.Client\\ChatApplWithSignalR.Client.csproj"
             }
           }
         }
