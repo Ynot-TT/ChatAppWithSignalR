@@ -1,0 +1,12 @@
+D:\ChatApplication\ChatApplWithSignalR\ChatApplWithSignalR.Shared\bin\Debug\net8.0\ChatApplWithSignalR.Shared.deps.json
+D:\ChatApplication\ChatApplWithSignalR\ChatApplWithSignalR.Shared\bin\Debug\net8.0\ChatApplWithSignalR.Shared.dll
+D:\ChatApplication\ChatApplWithSignalR\ChatApplWithSignalR.Shared\bin\Debug\net8.0\ChatApplWithSignalR.Shared.pdb
+D:\ChatApplication\ChatApplWithSignalR\ChatApplWithSignalR.Shared\obj\Debug\net8.0\ChatApplWithSignalR.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\ChatApplication\ChatApplWithSignalR\ChatApplWithSignalR.Shared\obj\Debug\net8.0\ChatApplWithSignalR.Shared.AssemblyInfoInputs.cache
+D:\ChatApplication\ChatApplWithSignalR\ChatApplWithSignalR.Shared\obj\Debug\net8.0\ChatApplWithSignalR.Shared.AssemblyInfo.cs
+D:\ChatApplication\ChatApplWithSignalR\ChatApplWithSignalR.Shared\obj\Debug\net8.0\ChatApplWithSignalR.Shared.csproj.CoreCompileInputs.cache
+D:\ChatApplication\ChatApplWithSignalR\ChatApplWithSignalR.Shared\obj\Debug\net8.0\ChatApplWithSignalR.Shared.sourcelink.json
+D:\ChatApplication\ChatApplWithSignalR\ChatApplWithSignalR.Shared\obj\Debug\net8.0\ChatApplWithSignalR.Shared.dll
+D:\ChatApplication\ChatApplWithSignalR\ChatApplWithSignalR.Shared\obj\Debug\net8.0\refint\ChatApplWithSignalR.Shared.dll
+D:\ChatApplication\ChatApplWithSignalR\ChatApplWithSignalR.Shared\obj\Debug\net8.0\ChatApplWithSignalR.Shared.pdb
+D:\ChatApplication\ChatApplWithSignalR\ChatApplWithSignalR.Shared\obj\Debug\net8.0\ref\ChatApplWithSignalR.Shared.dll

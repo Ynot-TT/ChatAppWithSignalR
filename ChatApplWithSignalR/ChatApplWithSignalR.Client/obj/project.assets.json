@@ -752,6 +752,16 @@
         "build": {
           "buildTransitive/net6.0/_._": {}
         }
+      },
+      "ChatApplWithSignalR.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/ChatApplWithSignalR.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ChatApplWithSignalR.Shared.dll": {}
+        }
       }
     },
     "net8.0/browser-wasm": {
@@ -1492,6 +1502,16 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "ChatApplWithSignalR.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/ChatApplWithSignalR.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ChatApplWithSignalR.Shared.dll": {}
         }
       }
     }
@@ -2769,10 +2789,16 @@
         "system.threading.channels.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "ChatApplWithSignalR.Shared/1.0.0": {
+      "type": "project",
+      "path": "../../ChatApplWithSignalR.Shared/ChatApplWithSignalR.Shared.csproj",
+      "msbuildProject": "../../ChatApplWithSignalR.Shared/ChatApplWithSignalR.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "ChatApplWithSignalR.Shared >= 1.0.0",
       "HtmlSanitizer >= 8.1.870",
       "Microsoft.AspNetCore.Components.WebAssembly >= 8.0.8",
       "Microsoft.AspNetCore.SignalR.Client >= 8.0.8",
@@ -2807,7 +2833,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\ChatApplication\\ChatApplWithSignalR\\ChatApplWithSignalR.Shared\\ChatApplWithSignalR.Shared.csproj": {
+              "projectPath": "D:\\ChatApplication\\ChatApplWithSignalR\\ChatApplWithSignalR.Shared\\ChatApplWithSignalR.Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

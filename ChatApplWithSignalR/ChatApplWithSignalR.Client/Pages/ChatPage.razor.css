@@ -3,7 +3,6 @@
     width: 100vw;
     background: url(../images/sky.jpg);
     background-size: cover;
-
 }
 .username-input {
     border: 1px solid #ccc;
@@ -24,6 +23,15 @@
     display: inline-block;
     word-wrap: break-word;
     position: relative;
+    clear: both; 
+}
+.message-bubble.sent {
+    background-color: lightgreen; 
+    margin-left: auto; 
+}
+.message-bubble.received {
+    background-color: dodgerblue; 
+    margin-right: auto;
 }
 .message-bubble:before {
     position: absolute;
@@ -40,6 +48,7 @@
     background: rgba(105, 105, 105,0.2);
     opacity: 1;
     box-shadow: 5px 5px 15px rgba(0,0,0,.8);
+    overflow: auto;
 }
 .username-container {
     display: flex;
@@ -51,7 +60,6 @@
     align-items: center;
     justify-content: center;
     text-align:center;
-    
 }
 .message-send-container {
     display: flex;
@@ -82,7 +90,6 @@
     color: white;
 }
 .btn-send {
-
     background-color: dodgerblue;
     border-radius: 20px;
     height: 40px;

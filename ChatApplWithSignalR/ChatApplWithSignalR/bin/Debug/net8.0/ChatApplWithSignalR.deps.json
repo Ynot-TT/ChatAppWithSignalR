@@ -364,12 +364,21 @@
       "System.Threading.Channels/8.0.0": {},
       "ChatApplWithSignalR.Client/1.0.0": {
         "dependencies": {
+          "ChatApplWithSignalR.Shared": "1.0.0",
           "HtmlSanitizer": "8.1.870",
           "Microsoft.AspNetCore.Components.WebAssembly": "8.0.8",
           "Microsoft.AspNetCore.SignalR.Client": "8.0.8"
         },
         "runtime": {
           "ChatApplWithSignalR.Client.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "ChatApplWithSignalR.Shared/1.0.0": {
+        "runtime": {
+          "ChatApplWithSignalR.Shared.dll": {
             "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -685,6 +694,11 @@
       "hashPath": "system.threading.channels.8.0.0.nupkg.sha512"
     },
     "ChatApplWithSignalR.Client/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ChatApplWithSignalR.Shared/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

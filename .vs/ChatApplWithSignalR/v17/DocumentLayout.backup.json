@@ -3,16 +3,44 @@
   "WorkspaceRootPath": "D:\\ChatApplication\\ChatApplWithSignalR\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6CD2D6D7-5D13-42C3-8A69-57C2FA8863B1}|ChatApplWithSignalR\\ChatApplWithSignalR.Client\\ChatApplWithSignalR.Client.csproj|d:\\chatapplication\\chatapplwithsignalr\\chatapplwithsignalr\\chatapplwithsignalr.client\\pages\\chatpage.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{6CD2D6D7-5D13-42C3-8A69-57C2FA8863B1}|ChatApplWithSignalR\\ChatApplWithSignalR.Client\\ChatApplWithSignalR.Client.csproj|solutionrelative:chatapplwithsignalr\\chatapplwithsignalr.client\\pages\\chatpage.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{7DA6ABAF-82D3-4A01-BC0E-070E9FBBA14D}|ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR.csproj|d:\\chatapplication\\chatapplwithsignalr\\chatapplwithsignalr\\chatapplwithsignalr\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DA6ABAF-82D3-4A01-BC0E-070E9FBBA14D}|ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR.csproj|solutionrelative:chatapplwithsignalr\\chatapplwithsignalr\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6CD2D6D7-5D13-42C3-8A69-57C2FA8863B1}|ChatApplWithSignalR\\ChatApplWithSignalR.Client\\ChatApplWithSignalR.Client.csproj|d:\\chatapplication\\chatapplwithsignalr\\chatapplwithsignalr\\chatapplwithsignalr.client\\pages\\chatpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6CD2D6D7-5D13-42C3-8A69-57C2FA8863B1}|ChatApplWithSignalR\\ChatApplWithSignalR.Client\\ChatApplWithSignalR.Client.csproj|solutionrelative:chatapplwithsignalr\\chatapplwithsignalr.client\\pages\\chatpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6CD2D6D7-5D13-42C3-8A69-57C2FA8863B1}|ChatApplWithSignalR\\ChatApplWithSignalR.Client\\ChatApplWithSignalR.Client.csproj|d:\\chatapplication\\chatapplwithsignalr\\chatapplwithsignalr\\chatapplwithsignalr.client\\pages\\chatpage.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6CD2D6D7-5D13-42C3-8A69-57C2FA8863B1}|ChatApplWithSignalR\\ChatApplWithSignalR.Client\\ChatApplWithSignalR.Client.csproj|solutionrelative:chatapplwithsignalr\\chatapplwithsignalr.client\\pages\\chatpage.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CD2D6D7-5D13-42C3-8A69-57C2FA8863B1}|ChatApplWithSignalR\\ChatApplWithSignalR.Client\\ChatApplWithSignalR.Client.csproj|d:\\chatapplication\\chatapplwithsignalr\\chatapplwithsignalr\\chatapplwithsignalr.client\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6CD2D6D7-5D13-42C3-8A69-57C2FA8863B1}|ChatApplWithSignalR\\ChatApplWithSignalR.Client\\ChatApplWithSignalR.Client.csproj|solutionrelative:chatapplwithsignalr\\chatapplwithsignalr.client\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0641AC79-E9A8-4380-8D22-37BB9AD7580C}|ChatApplWithSignalR.Shared\\ChatApplWithSignalR.Shared.csproj|d:\\chatapplication\\chatapplwithsignalr\\chatapplwithsignalr.shared\\models\\chatmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0641AC79-E9A8-4380-8D22-37BB9AD7580C}|ChatApplWithSignalR.Shared\\ChatApplWithSignalR.Shared.csproj|solutionrelative:chatapplwithsignalr.shared\\models\\chatmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DA6ABAF-82D3-4A01-BC0E-070E9FBBA14D}|ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR.csproj|d:\\chatapplication\\chatapplwithsignalr\\chatapplwithsignalr\\chatapplwithsignalr\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DA6ABAF-82D3-4A01-BC0E-070E9FBBA14D}|ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR.csproj|solutionrelative:chatapplwithsignalr\\chatapplwithsignalr\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7DA6ABAF-82D3-4A01-BC0E-070E9FBBA14D}|ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR.csproj|d:\\chatapplication\\chatapplwithsignalr\\chatapplwithsignalr\\chatapplwithsignalr\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{7DA6ABAF-82D3-4A01-BC0E-070E9FBBA14D}|ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR.csproj|solutionrelative:chatapplwithsignalr\\chatapplwithsignalr\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0641AC79-E9A8-4380-8D22-37BB9AD7580C}|ChatApplWithSignalR.Shared\\ChatApplWithSignalR.Shared.csproj|d:\\chatapplication\\chatapplwithsignalr\\chatapplwithsignalr.shared\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0641AC79-E9A8-4380-8D22-37BB9AD7580C}|ChatApplWithSignalR.Shared\\ChatApplWithSignalR.Shared.csproj|solutionrelative:chatapplwithsignalr.shared\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DA6ABAF-82D3-4A01-BC0E-070E9FBBA14D}|ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR.csproj|d:\\chatapplication\\chatapplwithsignalr\\chatapplwithsignalr\\chatapplwithsignalr\\wwwroot\\bootstrap\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7DA6ABAF-82D3-4A01-BC0E-070E9FBBA14D}|ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR.csproj|solutionrelative:chatapplwithsignalr\\chatapplwithsignalr\\wwwroot\\bootstrap\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DA6ABAF-82D3-4A01-BC0E-070E9FBBA14D}|ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR.csproj|d:\\chatapplication\\chatapplwithsignalr\\chatapplwithsignalr\\chatapplwithsignalr\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7DA6ABAF-82D3-4A01-BC0E-070E9FBBA14D}|ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR.csproj|solutionrelative:chatapplwithsignalr\\chatapplwithsignalr\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7DA6ABAF-82D3-4A01-BC0E-070E9FBBA14D}|ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR.csproj|d:\\chatapplication\\chatapplwithsignalr\\chatapplwithsignalr\\chatapplwithsignalr\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -23,16 +51,8 @@
       "RelativeMoniker": "D:0:0:{7DA6ABAF-82D3-4A01-BC0E-070E9FBBA14D}|ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR.csproj|solutionrelative:chatapplwithsignalr\\chatapplwithsignalr\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7DA6ABAF-82D3-4A01-BC0E-070E9FBBA14D}|ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR.csproj|d:\\chatapplication\\chatapplwithsignalr\\chatapplwithsignalr\\chatapplwithsignalr\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7DA6ABAF-82D3-4A01-BC0E-070E9FBBA14D}|ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR.csproj|solutionrelative:chatapplwithsignalr\\chatapplwithsignalr\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7DA6ABAF-82D3-4A01-BC0E-070E9FBBA14D}|ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR.csproj|d:\\chatapplication\\chatapplwithsignalr\\chatapplwithsignalr\\chatapplwithsignalr\\components\\pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7DA6ABAF-82D3-4A01-BC0E-070E9FBBA14D}|ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR.csproj|solutionrelative:chatapplwithsignalr\\chatapplwithsignalr\\components\\pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DA6ABAF-82D3-4A01-BC0E-070E9FBBA14D}|ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR.csproj|d:\\chatapplication\\chatapplwithsignalr\\chatapplwithsignalr\\chatapplwithsignalr\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DA6ABAF-82D3-4A01-BC0E-070E9FBBA14D}|ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR.csproj|solutionrelative:chatapplwithsignalr\\chatapplwithsignalr\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7DA6ABAF-82D3-4A01-BC0E-070E9FBBA14D}|ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR.csproj|d:\\chatapplication\\chatapplwithsignalr\\chatapplwithsignalr\\chatapplwithsignalr\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -43,16 +63,8 @@
       "RelativeMoniker": "D:0:0:{7DA6ABAF-82D3-4A01-BC0E-070E9FBBA14D}|ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR.csproj|solutionrelative:chatapplwithsignalr\\chatapplwithsignalr\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6CD2D6D7-5D13-42C3-8A69-57C2FA8863B1}|ChatApplWithSignalR\\ChatApplWithSignalR.Client\\ChatApplWithSignalR.Client.csproj|d:\\chatapplication\\chatapplwithsignalr\\chatapplwithsignalr\\chatapplwithsignalr.client\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6CD2D6D7-5D13-42C3-8A69-57C2FA8863B1}|ChatApplWithSignalR\\ChatApplWithSignalR.Client\\ChatApplWithSignalR.Client.csproj|solutionrelative:chatapplwithsignalr\\chatapplwithsignalr.client\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7DA6ABAF-82D3-4A01-BC0E-070E9FBBA14D}|ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR.csproj|d:\\chatapplication\\chatapplwithsignalr\\chatapplwithsignalr\\chatapplwithsignalr\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7DA6ABAF-82D3-4A01-BC0E-070E9FBBA14D}|ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR.csproj|solutionrelative:chatapplwithsignalr\\chatapplwithsignalr\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DA6ABAF-82D3-4A01-BC0E-070E9FBBA14D}|ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR.csproj|d:\\chatapplication\\chatapplwithsignalr\\chatapplwithsignalr\\chatapplwithsignalr\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DA6ABAF-82D3-4A01-BC0E-070E9FBBA14D}|ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR.csproj|solutionrelative:chatapplwithsignalr\\chatapplwithsignalr\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6CD2D6D7-5D13-42C3-8A69-57C2FA8863B1}|ChatApplWithSignalR\\ChatApplWithSignalR.Client\\ChatApplWithSignalR.Client.csproj|d:\\chatapplication\\chatapplwithsignalr\\chatapplwithsignalr\\chatapplwithsignalr.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -65,55 +77,61 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "DockedWidth": 207,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
+            }
+          ]
+        },
+        {
+          "DockedWidth": 193,
+          "SelectedChildIndex": 0,
+          "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Routes.razor",
-              "DocumentMoniker": "D:\\ChatApplication\\ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR\\Components\\Routes.razor",
-              "RelativeDocumentMoniker": "ChatApplWithSignalR\\ChatApplWithSignalR\\Components\\Routes.razor",
-              "ToolTip": "D:\\ChatApplication\\ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR\\Components\\Routes.razor",
-              "RelativeToolTip": "ChatApplWithSignalR\\ChatApplWithSignalR\\Components\\Routes.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-02T17:14:44.204Z",
+              "DocumentIndex": 0,
+              "Title": "ChatHub.cs",
+              "DocumentMoniker": "D:\\ChatApplication\\ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR\\Hubs\\ChatHub.cs",
+              "RelativeDocumentMoniker": "ChatApplWithSignalR\\ChatApplWithSignalR\\Hubs\\ChatHub.cs",
+              "ToolTip": "D:\\ChatApplication\\ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR\\Hubs\\ChatHub.cs",
+              "RelativeToolTip": "ChatApplWithSignalR\\ChatApplWithSignalR\\Hubs\\ChatHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T10:45:29.051Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Weather.razor",
-              "DocumentMoniker": "D:\\ChatApplication\\ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR\\Components\\Pages\\Weather.razor",
-              "RelativeDocumentMoniker": "ChatApplWithSignalR\\ChatApplWithSignalR\\Components\\Pages\\Weather.razor",
-              "ToolTip": "D:\\ChatApplication\\ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR\\Components\\Pages\\Weather.razor",
-              "RelativeToolTip": "ChatApplWithSignalR\\ChatApplWithSignalR\\Components\\Pages\\Weather.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-02T17:14:37.166Z",
+              "Title": "ChatMessage.cs",
+              "DocumentMoniker": "D:\\ChatApplication\\ChatApplWithSignalR\\ChatApplWithSignalR.Shared\\Models\\ChatMessage.cs",
+              "RelativeDocumentMoniker": "ChatApplWithSignalR.Shared\\Models\\ChatMessage.cs",
+              "ToolTip": "D:\\ChatApplication\\ChatApplWithSignalR\\ChatApplWithSignalR.Shared\\Models\\ChatMessage.cs",
+              "RelativeToolTip": "ChatApplWithSignalR.Shared\\Models\\ChatMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T22:52:14.023Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Error.razor",
-              "DocumentMoniker": "D:\\ChatApplication\\ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR\\Components\\Pages\\Error.razor",
-              "RelativeDocumentMoniker": "ChatApplWithSignalR\\ChatApplWithSignalR\\Components\\Pages\\Error.razor",
-              "ToolTip": "D:\\ChatApplication\\ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR\\Components\\Pages\\Error.razor",
-              "RelativeToolTip": "ChatApplWithSignalR\\ChatApplWithSignalR\\Components\\Pages\\Error.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-02T17:14:35.927Z",
+              "DocumentIndex": 2,
+              "Title": "ChatPage.razor.css",
+              "DocumentMoniker": "D:\\ChatApplication\\ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR.Client\\Pages\\ChatPage.razor.css",
+              "RelativeDocumentMoniker": "ChatApplWithSignalR\\ChatApplWithSignalR.Client\\Pages\\ChatPage.razor.css",
+              "ToolTip": "D:\\ChatApplication\\ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR.Client\\Pages\\ChatPage.razor.css",
+              "RelativeToolTip": "ChatApplWithSignalR\\ChatApplWithSignalR.Client\\Pages\\ChatPage.razor.css",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAGoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-01T08:01:55.556Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "D:\\ChatApplication\\ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR\\Components\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "ChatApplWithSignalR\\ChatApplWithSignalR\\Components\\Layout\\MainLayout.razor",
@@ -121,8 +139,31 @@
               "RelativeToolTip": "ChatApplWithSignalR\\ChatApplWithSignalR\\Components\\Layout\\MainLayout.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-02T16:59:12.525Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-02T16:59:12.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Error.razor",
+              "DocumentMoniker": "D:\\ChatApplication\\ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR\\Components\\Pages\\Error.razor",
+              "RelativeDocumentMoniker": "ChatApplWithSignalR\\ChatApplWithSignalR\\Components\\Pages\\Error.razor",
+              "ToolTip": "D:\\ChatApplication\\ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR\\Components\\Pages\\Error.razor",
+              "RelativeToolTip": "ChatApplWithSignalR\\ChatApplWithSignalR\\Components\\Pages\\Error.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T17:14:35.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Weather.razor",
+              "DocumentMoniker": "D:\\ChatApplication\\ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR\\Components\\Pages\\Weather.razor",
+              "RelativeDocumentMoniker": "ChatApplWithSignalR\\ChatApplWithSignalR\\Components\\Pages\\Weather.razor",
+              "ToolTip": "D:\\ChatApplication\\ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR\\Components\\Pages\\Weather.razor",
+              "RelativeToolTip": "ChatApplWithSignalR\\ChatApplWithSignalR\\Components\\Pages\\Weather.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T17:14:37.166Z"
             },
             {
               "$type": "Document",
@@ -132,27 +173,26 @@
               "RelativeDocumentMoniker": "ChatApplWithSignalR\\ChatApplWithSignalR.Client\\Pages\\ChatPage.razor",
               "ToolTip": "D:\\ChatApplication\\ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR.Client\\Pages\\ChatPage.razor",
               "RelativeToolTip": "ChatApplWithSignalR\\ChatApplWithSignalR.Client\\Pages\\ChatPage.razor",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAADEAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAGQAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-29T10:47:28.246Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ChatPage.razor.css",
-              "DocumentMoniker": "D:\\ChatApplication\\ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR.Client\\Pages\\ChatPage.razor.css",
-              "RelativeDocumentMoniker": "ChatApplWithSignalR\\ChatApplWithSignalR.Client\\Pages\\ChatPage.razor.css",
-              "ToolTip": "D:\\ChatApplication\\ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR.Client\\Pages\\ChatPage.razor.css",
-              "RelativeToolTip": "ChatApplWithSignalR\\ChatApplWithSignalR.Client\\Pages\\ChatPage.razor.css",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAAE4AAAARAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "bootstrap.min.css",
+              "DocumentMoniker": "D:\\ChatApplication\\ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR\\wwwroot\\bootstrap\\bootstrap.min.css",
+              "RelativeDocumentMoniker": "ChatApplWithSignalR\\ChatApplWithSignalR\\wwwroot\\bootstrap\\bootstrap.min.css",
+              "ToolTip": "D:\\ChatApplication\\ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR\\wwwroot\\bootstrap\\bootstrap.min.css",
+              "RelativeToolTip": "ChatApplWithSignalR\\ChatApplWithSignalR\\wwwroot\\bootstrap\\bootstrap.min.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-01T08:01:55.556Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-07T09:31:06.652Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\ChatApplication\\ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR\\appsettings.json",
               "RelativeDocumentMoniker": "ChatApplWithSignalR\\ChatApplWithSignalR\\appsettings.json",
@@ -165,20 +205,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ChatHub.cs",
-              "DocumentMoniker": "D:\\ChatApplication\\ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR\\Hubs\\ChatHub.cs",
-              "RelativeDocumentMoniker": "ChatApplWithSignalR\\ChatApplWithSignalR\\Hubs\\ChatHub.cs",
-              "ToolTip": "D:\\ChatApplication\\ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR\\Hubs\\ChatHub.cs",
-              "RelativeToolTip": "ChatApplWithSignalR\\ChatApplWithSignalR\\Hubs\\ChatHub.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ChatApplication\\ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR\\Program.cs",
+              "RelativeDocumentMoniker": "ChatApplWithSignalR\\ChatApplWithSignalR\\Program.cs",
+              "ToolTip": "D:\\ChatApplication\\ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR\\Program.cs",
+              "RelativeToolTip": "ChatApplWithSignalR\\ChatApplWithSignalR\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T10:45:29.051Z",
+              "WhenOpened": "2024-09-29T10:46:21.171Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 3,
               "Title": "Counter.razor",
               "DocumentMoniker": "D:\\ChatApplication\\ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR.Client\\Pages\\Counter.razor",
               "RelativeDocumentMoniker": "ChatApplWithSignalR\\ChatApplWithSignalR.Client\\Pages\\Counter.razor",
@@ -186,23 +226,37 @@
               "RelativeToolTip": "ChatApplWithSignalR\\ChatApplWithSignalR.Client\\Pages\\Counter.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-01T09:17:10.681Z"
+              "WhenOpened": "2024-10-01T09:17:10.681Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\ChatApplication\\ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR\\Program.cs",
-              "RelativeDocumentMoniker": "ChatApplWithSignalR\\ChatApplWithSignalR\\Program.cs",
-              "ToolTip": "D:\\ChatApplication\\ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR\\Program.cs",
-              "RelativeToolTip": "ChatApplWithSignalR\\ChatApplWithSignalR\\Program.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAB4AAAAqAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "Routes.razor",
+              "DocumentMoniker": "D:\\ChatApplication\\ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR\\Components\\Routes.razor",
+              "RelativeDocumentMoniker": "ChatApplWithSignalR\\ChatApplWithSignalR\\Components\\Routes.razor",
+              "ToolTip": "D:\\ChatApplication\\ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR\\Components\\Routes.razor",
+              "RelativeToolTip": "ChatApplWithSignalR\\ChatApplWithSignalR\\Components\\Routes.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T17:14:44.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\ChatApplication\\ChatApplWithSignalR\\ChatApplWithSignalR.Shared\\Class1.cs",
+              "RelativeDocumentMoniker": "ChatApplWithSignalR.Shared\\Class1.cs",
+              "ToolTip": "D:\\ChatApplication\\ChatApplWithSignalR\\ChatApplWithSignalR.Shared\\Class1.cs",
+              "RelativeToolTip": "ChatApplWithSignalR.Shared\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T10:46:21.171Z"
+              "WhenOpened": "2024-10-08T22:33:46.579Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\ChatApplication\\ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR.Client\\Program.cs",
               "RelativeDocumentMoniker": "ChatApplWithSignalR\\ChatApplWithSignalR.Client\\Program.cs",
@@ -214,7 +268,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "App.razor",
               "DocumentMoniker": "D:\\ChatApplication\\ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR\\Components\\App.razor",
               "RelativeDocumentMoniker": "ChatApplWithSignalR\\ChatApplWithSignalR\\Components\\App.razor",
@@ -226,7 +280,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "D:\\ChatApplication\\ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR\\Components\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "ChatApplWithSignalR\\ChatApplWithSignalR\\Components\\Layout\\NavMenu.razor",
@@ -234,12 +288,11 @@
               "RelativeToolTip": "ChatApplWithSignalR\\ChatApplWithSignalR\\Components\\Layout\\NavMenu.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-01T11:58:30.828Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-01T11:58:30.828Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "Home.razor",
               "DocumentMoniker": "D:\\ChatApplication\\ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR\\Components\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "ChatApplWithSignalR\\ChatApplWithSignalR\\Components\\Pages\\Home.razor",
@@ -247,8 +300,7 @@
               "RelativeToolTip": "ChatApplWithSignalR\\ChatApplWithSignalR\\Components\\Pages\\Home.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-01T12:01:46.617Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-01T12:01:46.617Z"
             }
           ]
         }

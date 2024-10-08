@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatApplWithSignalR", "Chat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatApplWithSignalR.Client", "ChatApplWithSignalR\ChatApplWithSignalR.Client\ChatApplWithSignalR.Client.csproj", "{6CD2D6D7-5D13-42C3-8A69-57C2FA8863B1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatApplWithSignalR.Shared", "ChatApplWithSignalR.Shared\ChatApplWithSignalR.Shared.csproj", "{0641AC79-E9A8-4380-8D22-37BB9AD7580C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{6CD2D6D7-5D13-42C3-8A69-57C2FA8863B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CD2D6D7-5D13-42C3-8A69-57C2FA8863B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6CD2D6D7-5D13-42C3-8A69-57C2FA8863B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0641AC79-E9A8-4380-8D22-37BB9AD7580C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0641AC79-E9A8-4380-8D22-37BB9AD7580C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0641AC79-E9A8-4380-8D22-37BB9AD7580C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0641AC79-E9A8-4380-8D22-37BB9AD7580C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

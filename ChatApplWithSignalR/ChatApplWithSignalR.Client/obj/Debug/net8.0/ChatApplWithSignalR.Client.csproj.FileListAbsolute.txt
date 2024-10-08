@@ -2170,3 +2170,12 @@ D:\ChatApplication\ChatApplWithSignalR\ChatApplWithSignalR\ChatApplWithSignalR.C
 D:\ChatApplication\ChatApplWithSignalR\ChatApplWithSignalR\ChatApplWithSignalR.Client\obj\Debug\net8.0\compressed\aassoy8c3d.gz
 D:\ChatApplication\ChatApplWithSignalR\ChatApplWithSignalR\ChatApplWithSignalR.Client\obj\Debug\net8.0\compressed\sc0xbuviob.gz
 D:\ChatApplication\ChatApplWithSignalR\ChatApplWithSignalR\ChatApplWithSignalR.Client\obj\Debug\net8.0\compressed\j61ztk62ii.gz
+D:\ChatApplication\ChatApplWithSignalR\ChatApplWithSignalR\ChatApplWithSignalR.Client\bin\Debug\net8.0\wwwroot\_framework\ChatApplWithSignalR.Shared.pdb
+D:\ChatApplication\ChatApplWithSignalR\ChatApplWithSignalR\ChatApplWithSignalR.Client\bin\Debug\net8.0\wwwroot\_framework\ChatApplWithSignalR.Shared.wasm
+D:\ChatApplication\ChatApplWithSignalR\ChatApplWithSignalR\ChatApplWithSignalR.Client\bin\Debug\net8.0\wwwroot\_framework\ChatApplWithSignalR.Shared.pdb.gz
+D:\ChatApplication\ChatApplWithSignalR\ChatApplWithSignalR\ChatApplWithSignalR.Client\bin\Debug\net8.0\wwwroot\_framework\ChatApplWithSignalR.Shared.wasm.gz
+D:\ChatApplication\ChatApplWithSignalR\ChatApplWithSignalR\ChatApplWithSignalR.Client\bin\Debug\net8.0\ChatApplWithSignalR.Shared.dll
+D:\ChatApplication\ChatApplWithSignalR\ChatApplWithSignalR\ChatApplWithSignalR.Client\bin\Debug\net8.0\ChatApplWithSignalR.Shared.pdb
+D:\ChatApplication\ChatApplWithSignalR\ChatApplWithSignalR\ChatApplWithSignalR.Client\obj\Debug\net8.0\webcil\ChatApplWithSignalR.Shared.wasm
+D:\ChatApplication\ChatApplWithSignalR\ChatApplWithSignalR\ChatApplWithSignalR.Client\obj\Debug\net8.0\compressed\zc8v5ewcov.gz
+D:\ChatApplication\ChatApplWithSignalR\ChatApplWithSignalR\ChatApplWithSignalR.Client\obj\Debug\net8.0\compressed\9r4j54tzvz.gz

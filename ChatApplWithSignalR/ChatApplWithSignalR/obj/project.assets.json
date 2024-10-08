@@ -763,6 +763,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "ChatApplWithSignalR.Shared": "1.0.0",
           "HtmlSanitizer": "8.1.870",
           "Microsoft.AspNetCore.Components.WebAssembly": "8.0.8",
           "Microsoft.AspNetCore.SignalR.Client": "8.0.8"
@@ -772,6 +773,16 @@
         },
         "runtime": {
           "bin/placeholder/ChatApplWithSignalR.Client.dll": {}
+        }
+      },
+      "ChatApplWithSignalR.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/ChatApplWithSignalR.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ChatApplWithSignalR.Shared.dll": {}
         }
       }
     }
@@ -1961,6 +1972,11 @@
       "type": "project",
       "path": "../ChatApplWithSignalR.Client/ChatApplWithSignalR.Client.csproj",
       "msbuildProject": "../ChatApplWithSignalR.Client/ChatApplWithSignalR.Client.csproj"
+    },
+    "ChatApplWithSignalR.Shared/1.0.0": {
+      "type": "project",
+      "path": "../../ChatApplWithSignalR.Shared/ChatApplWithSignalR.Shared.csproj",
+      "msbuildProject": "../../ChatApplWithSignalR.Shared/ChatApplWithSignalR.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {

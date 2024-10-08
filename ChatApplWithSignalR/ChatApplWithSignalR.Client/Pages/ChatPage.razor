@@ -1,4 +1,5 @@
 ﻿@page "/"
+@using ChatApplWithSignalR.Models
 @using Microsoft.AspNetCore.SignalR.Client
 @using System.Text.Encodings.Web
 @rendermode InteractiveWebAssembly
@@ -11,103 +12,94 @@
         <div class="username-container">
             <input type="text"
                    placeholder="Enter username"
-                   class="username-input @(string.IsNullOrWhiteSpace(isUsernameStated) ? "" : "error")"
-                   @bind="username" />
+                   class="username-input @((isUsernameStated) ? "" : "error")"
+                   @bind="username" />  
         </div>
-        
         <div class="container">
-            @* <div class="card-header">Chatti</div> *@
-            
             <div class="card-body">
               
                 <div class="message-card">
                     <ul class="list-group">
-                        @foreach (var item in Messages)
-                        {
-                            <li class="message-bubble">@item</li>
-                        }
+                    @foreach (var message in Messages)
+                    {
+                        <li class="message-bubble @(message.IsSentByUser ? "sent" : "received")">
+                            @($"{message.Username}: {message.Message}")
+                        </li>
+                    }
                     </ul>
                 </div>
                 <div class="border-primary">
-                   
-                    
-                   
-                    
                 </div>
             </div>
-            @*  <div class="card-footer">
-                @if (!IsConnected)
-                {
-                    <div class="alert alert-danger"> Chat Diconnected</div>
-                }
-                else
-                {
-                    <div class="alert alert-success"> Chat Connected</div>
-                }
-            </div>  *@
+           
         </div>
         <div class="message-send-container">
             <div class="message-input">
                 <input type="text" placeholder="Enter a message" class="message-input-box" @bind="message" />
                 <button class="btn-send" @onclick="Send" disabled="@(string.IsNullOrWhiteSpace(message))">Send</button>
             </div>
-           
         </div>
 </div>
 
 @code {
     private HubConnection? hubConnection;
-    private List<string> Messages = [];
+    private List<ChatMessage> Messages = new List<ChatMessage>();
 
     private string? username;
     private string? message;
-    private string? isUsernameStated;
+    private bool isUsernameStated = true;
 
-    private DateTime date = DateTime.Now;
 
     protected async override Task OnInitializedAsync()
     {
-
+        // Create a new connection to the SignalR hub
         hubConnection = new HubConnectionBuilder()
         .WithUrl(NavManager.ToAbsoluteUri("/chathub"))
         .Build();
 
-        hubConnection.On<string, string, DateTime>("ReceiveMessage", (username, message, date) =>
+        //Receive messages from the server
+        hubConnection.On<string, string>("ReceiveMessage", (username, message) =>
         {
+            //Sanitize the username and message, prevents XSS
             string sanitizedUsername = HtmlEncoder.Default.Encode(username);
             string sanitizedMessage = HtmlEncoder.Default.Encode(message);
 
-            var timeOnly = date.ToString("HH:mm");  
-            var concatMessage = $"{timeOnly} {sanitizedUsername}:{sanitizedMessage}";
-            Messages.Add(concatMessage);
+            //Create a message object, adds to the list
+            var chatMessage = new ChatMessage
+                {
+                    Username = sanitizedUsername,
+                    Message = sanitizedMessage,
+                    IsSentByUser = false
+                };
+            Messages.Add(chatMessage);
             InvokeAsync(StateHasChanged);
         });                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
-
 
         await hubConnection.StartAsync();
     }
     private async Task Send()
     {
+        //Checks if username is filled in or not
         if (string.IsNullOrWhiteSpace(username))
         {
-            isUsernameStated = "Please enter a name";
+            isUsernameStated = false;
+            StateHasChanged();
             return;
         }
         else
         {
-            isUsernameStated = "";
+            isUsernameStated = true;
+            StateHasChanged();
         }
-        await hubConnection.SendAsync("SendMessage", username, message, date);
-    }
-
-    public bool IsConnected =>
-        hubConnection?.State == HubConnectionState.Connected;
-
-    public async ValueTask DisposeAsync()
-    {
-        if (hubConnection is not null)
-        {
-            await hubConnection.DisposeAsync();
-        }
+        //Create new message object 
+        var chatMessage = new ChatMessage
+            {
+                Username = username,
+                Message = message,
+                IsSentByUser = true
+            };
+        Messages.Add(chatMessage);
+        //Sends to server
+        await hubConnection.SendAsync("SendMessage", username, message);
     }
 }

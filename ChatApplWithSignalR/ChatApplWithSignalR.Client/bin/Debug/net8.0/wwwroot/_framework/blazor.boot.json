@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "ChatApplWithSignalR.Client",
   "resources": {
-    "hash": "sha256-g/xwCT/LRophV0Z00ZWcfBKxg8BEK1pULuHK/DEAzik=",
+    "hash": "sha256-pWzpzcsxNjmpG9trT2h8HUGfVKgOhAIgMks1+n/bGl0=",
     "jsModuleNative": {
       "dotnet.native.8.0.8.6kpjexj248.js": "sha256-juC5sA7gHTLXFEhAKgdM2/RavswpwCtDfjYGsAz2FXg="
     },
@@ -219,10 +219,12 @@
       "mscorlib.wasm": "sha256-Gz8PyW2/fwihe5ul81OwmRUrU71r+KtbyRw6xlOGD+Q=",
       "netstandard.wasm": "sha256-jMTqIQzoDS810lyhZpMO5eEC36EzntXqSVn+2qwkOMQ=",
       "System.Private.CoreLib.wasm": "sha256-NFj5WE5VLP2LptZIRJCUIc1AMk06FmxpsSILfPISwAw=",
-      "ChatApplWithSignalR.Client.wasm": "sha256-A5ycEkRYbMtD02iH0X50nneITH+36IXFxTIN1I1KCjg="
+      "ChatApplWithSignalR.Shared.wasm": "sha256-erSeu68aaCStSZ5J35uxQYxxIiAY2J/AUbhoG0CgrSI=",
+      "ChatApplWithSignalR.Client.wasm": "sha256-lCBZ2/aDcXRdj+rc47sr272qGm4gjB4rMTiX+qBVwi8="
     },
     "pdb": {
-      "ChatApplWithSignalR.Client.pdb": "sha256-MQlvIqQ4l4746BuKpS/bEjY+GjDBSavYCKdF/9nbruA="
+      "ChatApplWithSignalR.Shared.pdb": "sha256-atByUMtLo/KbagFOtQiPlX9txklAU0Td4BuFh6kd/9w=",
+      "ChatApplWithSignalR.Client.pdb": "sha256-tN5RDYNcBY0w1ovCG02j4Rk0aytIVinS3v9Q4LvwN3k="
     }
   },
   "cacheBootResources": true,

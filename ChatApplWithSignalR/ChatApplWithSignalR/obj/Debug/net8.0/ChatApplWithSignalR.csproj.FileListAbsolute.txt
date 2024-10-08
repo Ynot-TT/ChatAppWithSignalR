@@ -138,3 +138,5 @@ C:\Users\tonyn\Source\Repos\ChatAppWithSignalR\ChatApplWithSignalR\ChatApplWithS
 C:\Users\tonyn\Source\Repos\ChatAppWithSignalR\ChatApplWithSignalR\ChatApplWithSignalR\obj\Debug\net8.0\ChatApplWithSignalR.pdb
 C:\Users\tonyn\Source\Repos\ChatAppWithSignalR\ChatApplWithSignalR\ChatApplWithSignalR\obj\Debug\net8.0\ChatApplWithSignalR.genruntimeconfig.cache
 C:\Users\tonyn\Source\Repos\ChatAppWithSignalR\ChatApplWithSignalR\ChatApplWithSignalR\obj\Debug\net8.0\ref\ChatApplWithSignalR.dll
+D:\ChatApplication\ChatApplWithSignalR\ChatApplWithSignalR\ChatApplWithSignalR\bin\Debug\net8.0\ChatApplWithSignalR.Shared.dll
+D:\ChatApplication\ChatApplWithSignalR\ChatApplWithSignalR\ChatApplWithSignalR\bin\Debug\net8.0\ChatApplWithSignalR.Shared.pdb
