@@ -21,9 +21,7 @@
     max-width: 70%;
     margin-bottom: 10px;
     display: inline-block;
-    word-wrap: break-word;
     position: relative;
-    clear: both; 
 }
 .message-bubble.sent {
     background-color: lightgreen; 

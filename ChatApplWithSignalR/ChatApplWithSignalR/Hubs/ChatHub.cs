@@ -12,7 +12,7 @@ namespace ChatApplWithSignalR.Hubs
             //Sanitize username and message to prevent XSS
             string sanitizedUsername = sanitizer.Sanitize(username);
             string sanitizedMessage = sanitizer.Sanitize(message);
-            
+             
             //Sends the sanitized message to client except sender
             await Clients.Others.SendAsync("ReceiveMessage", sanitizedUsername, sanitizedMessage);
         }
