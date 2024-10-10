@@ -22,10 +22,6 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\ChatApplication\ChatApplWithSignalR\ChatApplWithSignalR\ChatApplWithSignalR.Client
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/ChatApplication/ChatApplWithSignalR/ChatApplWithSignalR/ChatApplWithSignalR.Client/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/ChatApplication/ChatApplWithSignalR/ChatApplWithSignalR/ChatApplWithSignalR.Client/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 

@@ -2,7 +2,7 @@
 .body[b-fu2xibmymp] {
     height: 100vh;
     width: 100vw;
-    background: url(../images/sky.jpg);
+    /*background: url(../images/sky.jpg);*/
     background-size: cover;
 }
 .username-input[b-fu2xibmymp] {
@@ -22,9 +22,7 @@
     max-width: 70%;
     margin-bottom: 10px;
     display: inline-block;
-    word-wrap: break-word;
     position: relative;
-    clear: both; 
 }
 .message-bubble.sent[b-fu2xibmymp] {
     background-color: lightgreen; 
@@ -46,9 +44,9 @@
     height: 600px;
     width: 600px;
     border-radius: 15px;
-    background: rgba(105, 105, 105,0.2);
+   /* background: rgba(105, 105, 105,0.2);
     opacity: 1;
-    box-shadow: 5px 5px 15px rgba(0,0,0,.8);
+    box-shadow: 5px 5px 15px rgba(0,0,0,.8);*/
     overflow: auto;
 }
 .username-container[b-fu2xibmymp] {

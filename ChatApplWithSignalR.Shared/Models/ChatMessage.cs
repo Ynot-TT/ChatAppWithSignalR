@@ -7,9 +7,5 @@ namespace ChatApplWithSignalR.Models
         public string Username { get; set; }
         public string Message { get; set; }
         public bool IsSentByUser { get; set; }
-
-
-
     }
-    
 }

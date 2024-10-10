@@ -56,7 +56,6 @@ D:\ChatApplication\ChatApplWithSignalR\ChatApplWithSignalR\ChatApplWithSignalR\o
 D:\ChatApplication\ChatApplWithSignalR\ChatApplWithSignalR\ChatApplWithSignalR\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ChatApplWithSignalR.props
 D:\ChatApplication\ChatApplWithSignalR\ChatApplWithSignalR\ChatApplWithSignalR\obj\Debug\net8.0\staticwebassets.pack.json
 D:\ChatApplication\ChatApplWithSignalR\ChatApplWithSignalR\ChatApplWithSignalR\obj\Debug\net8.0\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
-D:\ChatApplication\ChatApplWithSignalR\ChatApplWithSignalR\ChatApplWithSignalR\obj\Debug\net8.0\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
 D:\ChatApplication\ChatApplWithSignalR\ChatApplWithSignalR\ChatApplWithSignalR\obj\Debug\net8.0\scopedcss\bundle\ChatApplWithSignalR.styles.css
 D:\ChatApplication\ChatApplWithSignalR\ChatApplWithSignalR\ChatApplWithSignalR\obj\Debug\net8.0\scopedcss\projectbundle\ChatApplWithSignalR.bundle.scp.css
 D:\ChatApplication\ChatApplWithSignalR\ChatApplWithSignalR\ChatApplWithSignalR\obj\Debug\net8.0\ChatAppl.EE20C13C.Up2Date
