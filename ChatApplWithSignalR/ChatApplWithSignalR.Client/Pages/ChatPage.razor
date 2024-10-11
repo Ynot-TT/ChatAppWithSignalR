@@ -1,5 +1,6 @@
 ﻿@page "/"
 @using ChatApplWithSignalR.Models
+@using Ganss.Xss
 @using Microsoft.AspNetCore.SignalR.Client
 @using System.Text.Encodings.Web
 @rendermode InteractiveWebAssembly
@@ -44,7 +45,7 @@
 @code {
     private HubConnection? hubConnection;
     private List<ChatMessage> Messages = new List<ChatMessage>();
-
+      
     private string? username;
     private string? message;
     private bool isUsernameStated = true;
@@ -52,6 +53,8 @@
 
     protected async override Task OnInitializedAsync()
     {
+        var sanitizer = new HtmlSanitizer();
+
         // Create a new connection to the SignalR hub
         hubConnection = new HubConnectionBuilder()
         .WithUrl(NavManager.ToAbsoluteUri("/chathub"))
@@ -61,8 +64,8 @@
         hubConnection.On<string, string>("ReceiveMessage", (username, message) =>
         {
             //Sanitize the username and message, prevents XSS
-            string sanitizedUsername = HtmlEncoder.Default.Encode(username);
-            string sanitizedMessage = HtmlEncoder.Default.Encode(message);
+            string sanitizedUsername = sanitizer.Sanitize(username);
+            string sanitizedMessage = sanitizer.Sanitize(message);
 
             //Create a message object, adds to the list
             var chatMessage = new ChatMessage

@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "D:\\ChatApplication\\ChatApplWithSignalR\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7DA6ABAF-82D3-4A01-BC0E-070E9FBBA14D}|ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR.csproj|d:\\chatapplication\\chatapplwithsignalr\\chatapplwithsignalr\\chatapplwithsignalr\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DA6ABAF-82D3-4A01-BC0E-070E9FBBA14D}|ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR.csproj|solutionrelative:chatapplwithsignalr\\chatapplwithsignalr\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6CD2D6D7-5D13-42C3-8A69-57C2FA8863B1}|ChatApplWithSignalR\\ChatApplWithSignalR.Client\\ChatApplWithSignalR.Client.csproj|d:\\chatapplication\\chatapplwithsignalr\\chatapplwithsignalr\\chatapplwithsignalr.client\\pages\\chatpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6CD2D6D7-5D13-42C3-8A69-57C2FA8863B1}|ChatApplWithSignalR\\ChatApplWithSignalR.Client\\ChatApplWithSignalR.Client.csproj|solutionrelative:chatapplwithsignalr\\chatapplwithsignalr.client\\pages\\chatpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0641AC79-E9A8-4380-8D22-37BB9AD7580C}|ChatApplWithSignalR.Shared\\ChatApplWithSignalR.Shared.csproj|d:\\chatapplication\\chatapplwithsignalr\\chatapplwithsignalr.shared\\models\\chatmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0641AC79-E9A8-4380-8D22-37BB9AD7580C}|ChatApplWithSignalR.Shared\\ChatApplWithSignalR.Shared.csproj|solutionrelative:chatapplwithsignalr.shared\\models\\chatmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6CD2D6D7-5D13-42C3-8A69-57C2FA8863B1}|ChatApplWithSignalR\\ChatApplWithSignalR.Client\\ChatApplWithSignalR.Client.csproj|d:\\chatapplication\\chatapplwithsignalr\\chatapplwithsignalr\\chatapplwithsignalr.client\\pages\\chatpage.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -22,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 207,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,20 +38,46 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChatMessage.cs",
+              "DocumentMoniker": "D:\\ChatApplication\\ChatApplWithSignalR\\ChatApplWithSignalR.Shared\\Models\\ChatMessage.cs",
+              "RelativeDocumentMoniker": "ChatApplWithSignalR.Shared\\Models\\ChatMessage.cs",
+              "ToolTip": "D:\\ChatApplication\\ChatApplWithSignalR\\ChatApplWithSignalR.Shared\\Models\\ChatMessage.cs",
+              "RelativeToolTip": "ChatApplWithSignalR.Shared\\Models\\ChatMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T07:35:30.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ChatHub.cs",
+              "DocumentMoniker": "D:\\ChatApplication\\ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR\\Hubs\\ChatHub.cs",
+              "RelativeDocumentMoniker": "ChatApplWithSignalR\\ChatApplWithSignalR\\Hubs\\ChatHub.cs",
+              "ToolTip": "D:\\ChatApplication\\ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR\\Hubs\\ChatHub.cs",
+              "RelativeToolTip": "ChatApplWithSignalR\\ChatApplWithSignalR\\Hubs\\ChatHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T07:00:16.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ChatPage.razor",
               "DocumentMoniker": "D:\\ChatApplication\\ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR.Client\\Pages\\ChatPage.razor",
               "RelativeDocumentMoniker": "ChatApplWithSignalR\\ChatApplWithSignalR.Client\\Pages\\ChatPage.razor",
               "ToolTip": "D:\\ChatApplication\\ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR.Client\\Pages\\ChatPage.razor",
               "RelativeToolTip": "ChatApplWithSignalR\\ChatApplWithSignalR.Client\\Pages\\ChatPage.razor",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAAAA0AAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-10T21:58:04.557Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "_Imports.razor",
               "DocumentMoniker": "D:\\ChatApplication\\ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR.Client\\_Imports.razor",
               "RelativeDocumentMoniker": "ChatApplWithSignalR\\ChatApplWithSignalR.Client\\_Imports.razor",
@@ -51,17 +85,18 @@
               "RelativeToolTip": "ChatApplWithSignalR\\ChatApplWithSignalR.Client\\_Imports.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-10T21:57:20.868Z"
+              "WhenOpened": "2024-10-10T21:57:20.868Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ChatPage.razor.css",
               "DocumentMoniker": "D:\\ChatApplication\\ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR.Client\\Pages\\ChatPage.razor.css",
               "RelativeDocumentMoniker": "ChatApplWithSignalR\\ChatApplWithSignalR.Client\\Pages\\ChatPage.razor.css",
               "ToolTip": "D:\\ChatApplication\\ChatApplWithSignalR\\ChatApplWithSignalR\\ChatApplWithSignalR.Client\\Pages\\ChatPage.razor.css",
               "RelativeToolTip": "ChatApplWithSignalR\\ChatApplWithSignalR.Client\\Pages\\ChatPage.razor.css",
-              "ViewState": "AgIAABIAAAAAAAAAAAAkwC0AAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-10-10T21:57:17.01Z",
               "EditorCaption": ""
